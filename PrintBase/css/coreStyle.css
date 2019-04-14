@@ -1,0 +1,323 @@
+/* line 4, ../sass/coreStyle.sass */
+body, h1, h2, h3, h4, h5 {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+/* line 9, ../sass/coreStyle.sass */
+.mButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 13, ../sass/coreStyle.sass */
+body {
+  font-size: 16px;
+}
+
+/* line 17, ../sass/coreStyle.sass */
+.w3-half img:hover {
+  opacity: 1;
+}
+
+/* line 21, ../sass/coreStyle.sass */
+div.gallery {
+  border: 1px solid #ccc;
+  min-width: 200px;
+  margin: 5px;
+}
+
+/* line 27, ../sass/coreStyle.sass */
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+/* line 31, ../sass/coreStyle.sass */
+div.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+/* line 36, ../sass/coreStyle.sass */
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* line 41, ../sass/coreStyle.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 45, ../sass/coreStyle.sass */
+.responsive {
+  padding: 6px 6px;
+  float: left;
+  width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+  /* line 52, ../sass/coreStyle.sass */
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 59, ../sass/coreStyle.sass */
+  .responsive {
+    width: 100%;
+  }
+}
+/* line 64, ../sass/coreStyle.sass */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 70, ../sass/coreStyle.sass */
+.m_Container {
+  margin-left: 340px;
+  margin-right: 40px;
+}
+
+/* line 75, ../sass/coreStyle.sass */
+#m_Search {
+  max-width: 300px;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 2px black;
+  border-bottom-style: groove;
+  float: right;
+}
+
+@media (min-width: 603px) {
+  /* line 86, ../sass/coreStyle.sass */
+  #m_Search {
+    display: block !important;
+  }
+}
+@media (max-width: 602px) {
+  /* line 92, ../sass/coreStyle.sass */
+  #m_Search {
+    display: none;
+  }
+}
+@media (min-width: 993px) {
+  /* line 98, ../sass/coreStyle.sass */
+  #m_sidebar {
+    display: block !important;
+  }
+
+  /* line 102, ../sass/coreStyle.sass */
+  .m_Container {
+    margin-left: 340px;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 109, ../sass/coreStyle.sass */
+  #m_sidebar {
+    display: none;
+  }
+
+  /* line 113, ../sass/coreStyle.sass */
+  .m_Container {
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+}
+/* line 119, ../sass/coreStyle.sass */
+#m_sidebar {
+  height: 91%;
+  width: 300px;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+  top: 90px;
+  font-weight: bold;
+  background-color: dimgrey;
+  color: white;
+  bottom: 90px;
+}
+
+/* line 132, ../sass/coreStyle.sass */
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+/* line 139, ../sass/coreStyle.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 143, ../sass/coreStyle.sass */
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* line 152, ../sass/coreStyle.sass */
+.formInput {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* .propertyCheckbox */
+/* line 161, ../sass/coreStyle.sass */
+.propertyCheckbox {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin: 20px auto;
+  background: #fcfff4;
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* line 170, ../sass/coreStyle.sass */
+.propertyCheckbox label {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+}
+/* line 179, ../sass/coreStyle.sass */
+.propertyCheckbox label:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: -webkit-linear-gradient(top, #27ae60 0%, #145b32 100%);
+  background: linear-gradient(to bottom, #27ae60 0%, #145b32 100%);
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+/* line 190, ../sass/coreStyle.sass */
+.propertyCheckbox label:hover::after {
+  opacity: 0.3;
+}
+/* line 194, ../sass/coreStyle.sass */
+.propertyCheckbox input[type=checkbox] {
+  visibility: hidden;
+}
+/* line 196, ../sass/coreStyle.sass */
+.propertyCheckbox input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+/* end .propertyCheckbox */
+/* Mark input boxes that gets an error on validation: */
+/* line 201, ../sass/coreStyle.sass */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+/* line 206, ../sass/coreStyle.sass */
+.tab {
+  display: none;
+}
+
+/* line 210, ../sass/coreStyle.sass */
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+/* line 220, ../sass/coreStyle.sass */
+button:hover {
+  opacity: 0.8;
+}
+
+/* line 224, ../sass/coreStyle.sass */
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+/* line 229, ../sass/coreStyle.sass */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* line 240, ../sass/coreStyle.sass */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+/* line 245, ../sass/coreStyle.sass */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+.m_Row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-50 {
+    flex: 50%;
+    padding: 0 16px;
+}
+
+.formContainer {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.formContainer input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.formContainer label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+@media (max-width: 800px) {
+    .m_Row {
+        flex-direction: column-reverse;
+    }
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
