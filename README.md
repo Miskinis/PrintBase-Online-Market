@@ -1,6 +1,6 @@
 # PrintBase-Online-Market
 
-College practice assignment. Create an online market with payment through bank transfer. Project includes:
+Full Stack college practice assignment. Create an online market with payment through bank transfer. Project includes:
 1. Online Market Website
 2. Online Bank Website
 3. Database (market and bank combined to single file for simplicity)
